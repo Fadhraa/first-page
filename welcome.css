@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    filter: brightness(0.6);
+}
+.background > video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.center{
+    position: relative;
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.center > h2{
+    font-size: 72px;
+}
+.keterangan{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.keterangan > h3{
+    font-size: 24px;
+}
+.keterangan > a{
+    color: white;
+    font-size: 24px;
+}
+.keterangan > *{
+    margin-left: 10px;
+}
